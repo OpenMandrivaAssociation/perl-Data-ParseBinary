@@ -11,7 +11,7 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Data/%{upstream_name}-%{upstream_version}.tar.gz
 
-BuildRequires: perl(Math::BigInt)
+BuildRequires: perl(Math::BigInt) >= 1.993.0
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
