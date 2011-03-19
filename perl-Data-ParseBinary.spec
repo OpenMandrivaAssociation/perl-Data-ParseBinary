@@ -10,8 +10,8 @@ License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Data/%{upstream_name}-%{upstream_version}.tar.gz
-
-BuildRequires: perl(Math::BigInt) >= 1.993.0
+# perl virtual package is not versioned
+BuildRequires: perl-Math-BigInt >= 1.993.0
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
