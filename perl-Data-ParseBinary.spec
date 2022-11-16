@@ -17,6 +17,8 @@ BuildRequires:	perl-devel
 # perl virtual package is not versioned
 BuildRequires:	perl-Math-BigInt >= 1.993.0
 BuildArch:	noarch
+# For tests
+BuildRequires:	perl(Test::More)
 
 %description
 This module is a Perl Port for PyConstructs
